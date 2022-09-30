@@ -9,7 +9,7 @@ while (True):
 1.- Imprimir biografia:
 2.- Salir:
             """)
-    opcion = int(input("Digite una opcion: "))
+    opcion = int(input("Digite una opcion del menu: "))
 
     if(opcion == 1):
         print(biografia)
@@ -17,6 +17,3 @@ while (True):
         quit()
     else:
         print("no existe esa opcion vuelva a elegir una opcion del menu que se muestra");
-
-
-
